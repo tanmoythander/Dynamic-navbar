@@ -24,7 +24,7 @@ $(document).scroll(function () {
   $('.portion').css('background-positionY', ($movebg) + 'px');
 
   // add class active to nav a on scroll
-  var scrollPos = $(document).scrollTop() + 100;
+  var scrollPos = $(document).scrollTop() + 300;
   $('nav a').each(function () {
     var currLink = $(this);
     var refElement = $(currLink.attr("href"));
