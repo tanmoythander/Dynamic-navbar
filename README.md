@@ -1,2 +1,2 @@
 # Dynamic-navbar
-Dynamic navbar using jQuery
+Dynamic navbar & parallax-scrolling using jQuery
