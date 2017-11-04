@@ -14,6 +14,23 @@ header nav {
   position: fixed;
   width: 100%;
 }
+
+header nav img {
+  z-index: 1000;
+  height: 2.5em;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  transition: all 0.5s linear;
+}
+
+header nav span {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-weight: bold;
+  transition: all 0.5s ease-in;
+}
 header nav a {
   color: white;
   text-decoration: none;
@@ -34,11 +51,10 @@ header nav a:hover {
 }
 
 .active {
-  background: rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.4);
 }
 
 .portion {
-  
   background-image:  url('../img/bootstrap.jpg');
   background-position: center center;
   background-attachment: fixed;
@@ -94,31 +110,8 @@ footer a {
 	color: #ffffff;
 }
 
-#toTop img {
-  width: 50px;
-}
-#toTop img:hover {
-  cursor: pointer;
-}
-nav img {
-  z-index: 1000;
-  height: 2.5em;
-  position: absolute;
-  left: 40px;
-  top: 10px;
-  transition: all 0.5s linear;
-}
-
 .move {
   top: -60px;
-}
-
-nav span {
-  position: absolute;
-  left: 40px;
-  top: 10px;
-  font-weight: bold;
-  transition: all 0.5s ease-in;
 }
 
 .movetext {

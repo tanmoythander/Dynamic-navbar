@@ -15,6 +15,12 @@ $('#toTop a').click(function () {
   }, 1000);
   return false;
 });
+$('.button a').click(function () {
+  $('body').animate({
+    scrollTop: 0
+  }, 1000);
+  return false;
+});
 
 // Parallaxing + add class active on scroll
 $(document).scroll(function () {
